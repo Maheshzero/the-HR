@@ -1,0 +1,23 @@
+# Ignore credential files and tokens
+client_secret.json
+token.json
+**/client_secret.json
+**/token.json
+
+# Common secret/config files
+.env
+*.pem
+*.key
+*.crt
+
+# Python virtualenvs
+.venv/
+venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
